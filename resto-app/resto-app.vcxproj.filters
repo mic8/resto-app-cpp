@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{6fd717bd-c558-4caf-bfa6-2cf249258698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\user">
+      <UniqueIdentifier>{e477c593-52a5-4fc7-ba42-41b72e9511c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\providers">
+      <UniqueIdentifier>{3b130eb8-a097-427f-8083-bd96a141b116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\providers\user">
+      <UniqueIdentifier>{d2cd79b8-5ea8-4ea0-973d-e023a55ade41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\providers\vendor">
+      <UniqueIdentifier>{604c2dc3-99cd-49a8-a1f4-05671dfe1490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{f4460db3-d9d2-495c-8878-5bf00f54f0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{111c61f8-9049-4d26-b897-54b9179a7c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\menu">
+      <UniqueIdentifier>{8416971d-26a4-491d-8128-7b9156f2cbe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\role">
+      <UniqueIdentifier>{2e64f522-cd40-4920-aaed-4bce4a3e940f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\auth">
+      <UniqueIdentifier>{aacea7da-4432-4394-a4c7-df837e6e2afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\auth\login">
+      <UniqueIdentifier>{9e89aebf-8baf-4e74-bb4b-eb198ead2bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\auth\vendor">
+      <UniqueIdentifier>{51e4eaa5-2e9b-43d8-9909-dade63cd1947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\select">
+      <UniqueIdentifier>{919f6141-315a-4ee8-b1e2-cedc593bebea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\vendor">
+      <UniqueIdentifier>{5501b6d5-bd2c-4909-8cd4-6b8065dbd627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins">
+      <UniqueIdentifier>{3aeef276-4e54-4aed-a7c9-805dfa5072ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\customers">
+      <UniqueIdentifier>{4de5c181-b4e7-42c1-bd90-1463d42383c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\waiters">
+      <UniqueIdentifier>{d4acb7c5-ad1e-48c6-b734-3f49cff7fa75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\user">
+      <UniqueIdentifier>{755501da-5ed9-47c2-a025-08b97d045ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\vendor">
+      <UniqueIdentifier>{6b385851-de47-492f-8623-d1cb1da31e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\auth\register">
+      <UniqueIdentifier>{46620885-db17-4f4f-a408-e2d204d0842b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\user\add">
+      <UniqueIdentifier>{8b7445ad-baa4-41a1-bcc6-dd1f0a0c491c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\user\view">
+      <UniqueIdentifier>{8813fbb9-cdd9-4d80-a157-7ed7fd73d03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\data">
+      <UniqueIdentifier>{f54728e6-8d16-4eb6-9c86-7fc29b6d38c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\user\detail">
+      <UniqueIdentifier>{f3f5d869-eb69-42f2-8726-5f07c6c6755a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\user\edit">
+      <UniqueIdentifier>{346cc455-50e8-4736-a6b4-65a9243c8280}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user.model.cpp">
+      <Filter>Source Files\models\user</Filter>
+    </ClCompile>
+    <ClCompile Include="user.provider.cpp">
+      <Filter>Source Files\providers\user</Filter>
+    </ClCompile>
+    <ClCompile Include="provider.cpp">
+      <Filter>Source Files\providers\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="stream.helper.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.component.cpp">
+      <Filter>Source Files\components\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="login.component.cpp">
+      <Filter>Source Files\components\auth\login</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.component.cpp">
+      <Filter>Source Files\components\auth\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="register.component.cpp">
+      <Filter>Source Files\components\auth\register</Filter>
+    </ClCompile>
+    <ClCompile Include="validator.helper.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="select.component.cpp">
+      <Filter>Source Files\components\select</Filter>
+    </ClCompile>
+    <ClCompile Include="role.model.cpp">
+      <Filter>Source Files\models\role</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>Source Files\components\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor.admin.component.cpp">
+      <Filter>Source Files\components\admins\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="user-logged.model.cpp">
+      <Filter>Source Files\models\user</Filter>
+    </ClCompile>
+    <ClCompile Include="user-view.admin.component.cpp">
+      <Filter>Source Files\components\admins\user\view</Filter>
+    </ClCompile>
+    <ClCompile Include="user-add.admin.component.cpp">
+      <Filter>Source Files\components\admins\user\add</Filter>
+    </ClCompile>
+    <ClCompile Include="user.admin.component.cpp">
+      <Filter>Source Files\components\admins\user</Filter>
+    </ClCompile>
+    <ClCompile Include="data.component.cpp">
+      <Filter>Source Files\components\data</Filter>
+    </ClCompile>
+    <ClCompile Include="user-detail.admin.component.cpp">
+      <Filter>Source Files\components\admins\user\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="user-edit.admin.component.cpp">
+      <Filter>Source Files\components\admins\user\edit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="user.provider.h">
+      <Filter>Source Files\providers\user</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user.model.h">
+      <Filter>Source Files\models\user</Filter>
+    </ClInclude>
+    <ClInclude Include="provider.h">
+      <Filter>Source Files\providers\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.helper.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.component.h">
+      <Filter>Source Files\components\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="role.model.h">
+      <Filter>Source Files\models\role</Filter>
+    </ClInclude>
+    <ClInclude Include="login.component.h">
+      <Filter>Source Files\components\auth\login</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.component.h">
+      <Filter>Source Files\components\auth\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="register.component.h">
+      <Filter>Source Files\components\auth\register</Filter>
+    </ClInclude>
+    <ClInclude Include="validator.helper.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="select.component.h">
+      <Filter>Source Files\components\select</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>Source Files\components\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="user.admin.component.h">
+      <Filter>Source Files\components\admins\user</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor.admin.component.h">
+      <Filter>Source Files\components\admins\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="user-logged.model.h">
+      <Filter>Source Files\models\user</Filter>
+    </ClInclude>
+    <ClInclude Include="user-view.admin.component.h">
+      <Filter>Source Files\components\admins\user\view</Filter>
+    </ClInclude>
+    <ClInclude Include="user-add.admin.component.h">
+      <Filter>Source Files\components\admins\user\add</Filter>
+    </ClInclude>
+    <ClInclude Include="data.component.h">
+      <Filter>Source Files\components\data</Filter>
+    </ClInclude>
+    <ClInclude Include="user-detail.admin.component.h">
+      <Filter>Source Files\components\admins\user\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="user-edit.admin.component.h">
+      <Filter>Source Files\components\admins\user\edit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

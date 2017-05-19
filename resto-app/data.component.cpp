@@ -12,6 +12,10 @@ void DataComponent::addList(string label) {
 	this->list.push_back(label);
 }
 
+void DataComponent::resetList() {
+	this->list.clear();
+}
+
 void DataComponent::setTitle(string title) {
 	this->title = title;
 }
@@ -81,6 +85,18 @@ void DataComponent::_emit() {
 				break;
 			case StreamHelper::ENTER:
 				this->isExit = true;
+				this->isBack = false;
+				repeat = false;
+				break;
+			case 's': 
+				this->isPressS = true;
+				this->isExit = false;
+				this->isBack = false;
+				repeat = false;
+				break;
+			case 'd': 
+				this->isPressD = true;
+				this->isExit = false;
 				this->isBack = false;
 				repeat = false;
 				break;

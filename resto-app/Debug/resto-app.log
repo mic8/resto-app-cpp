@@ -1,33 +1,38 @@
-﻿Build started 4/14/2017 11:58:42 AM.
+﻿Build started 5/17/2017 12:23:08 AM.
      1>Project "D:\Binus\Semester_2\OOP\Project\resto-app\resto-app\resto-app.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt auth.component.cpp login.component.cpp main.cpp register.component.cpp "user-add.admin.component.cpp" "user-detail.admin.component.cpp" "user-edit.admin.component.cpp" "user-view.admin.component.cpp" user.admin.component.cpp vendor.admin.component.cpp
-         user-edit.admin.component.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "transaction-view.admin.component.cpp"
+         transaction-view.admin.component.cpp
      1>d:\binus\semester_2\oop\project\resto-app\resto-app\stream.helper.h(21): warning C4305: 'initializing': truncation from 'int' to 'const char'
      1>d:\binus\semester_2\oop\project\resto-app\resto-app\stream.helper.h(21): warning C4309: 'initializing': truncation of constant value
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         vendor.admin.component.cpp
-         user.admin.component.cpp
-         user-view.admin.component.cpp
-         user-detail.admin.component.cpp
-         user-add.admin.component.cpp
-         register.component.cpp
-         main.cpp
-         login.component.cpp
-         auth.component.cpp
+     1>d:\binus\semester_2\oop\project\resto-app\resto-app\transaction-view.admin.component.cpp(17): warning C4018: '<': signed/unsigned mismatch
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Binus\Semester_2\OOP\Project\resto-app\Debug\resto-app.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Binus\Semester_2\OOP\Project\resto-app\Debug\resto-app.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Binus\Semester_2\OOP\Project\resto-app\Debug\resto-app.lib" /MACHINE:X86 Debug\auth.component.obj
          Debug\component.obj
          Debug\data.component.obj
          Debug\login.component.obj
          Debug\main.obj
+         "Debug\menu-add.admin.component.obj"
+         "Debug\menu-detail.admin.component.obj"
+         "Debug\menu-edit.admin.component.obj"
+         "Debug\menu-view.admin.component.obj"
+         Debug\menu.admin.component.obj
          Debug\menu.component.obj
+         Debug\menu.model.obj
+         Debug\menu.provider.obj
+         Debug\menu.waiter.component.obj
          Debug\provider.obj
          Debug\register.component.obj
          Debug\role.model.obj
          Debug\select.component.obj
          Debug\stream.helper.obj
+         "Debug\transaction-detail.admin.component.obj"
+         "Debug\transaction-detail.model.obj"
+         "Debug\transaction-detail.provider.obj"
+         "Debug\transaction-view.admin.component.obj"
+         Debug\transaction.admin.component.obj
+         Debug\transaction.model.obj
+         Debug\transaction.provider.obj
          "Debug\user-add.admin.component.obj"
          "Debug\user-detail.admin.component.obj"
          "Debug\user-edit.admin.component.obj"
@@ -38,9 +43,10 @@
          Debug\user.provider.obj
          Debug\validator.helper.obj
          Debug\vendor.admin.component.obj
+         Debug\vendor.waiter.component.obj
          resto-app.vcxproj -> D:\Binus\Semester_2\OOP\Project\resto-app\Debug\resto-app.exe
      1>Done Building Project "D:\Binus\Semester_2\OOP\Project\resto-app\resto-app\resto-app.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.38
+Time Elapsed 00:00:02.62

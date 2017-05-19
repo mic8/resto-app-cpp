@@ -18,6 +18,8 @@ public:
 	
 	void doRegister();
 
+	void doExit();
+
 	void init();
 
 };

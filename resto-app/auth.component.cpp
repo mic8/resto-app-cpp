@@ -3,6 +3,7 @@
 void AuthComponent::bindList() {
 	this->addList("Sign In / Masuk");
 	this->addList("Register / Daftar Akun");
+	this->addList("Exit");
 }
 
 void AuthComponent::bindTitle(string title) {
@@ -17,6 +18,9 @@ void AuthComponent::action(int currIndex) {
 	case 1 :
 		this->doRegister();
 		break;
+	case 2 : 
+		this->doExit();
+		break;
 	}
 }
 
@@ -28,6 +32,11 @@ void AuthComponent::doLogin() {
 void AuthComponent::doRegister() {
 	RegisterComponent registerComponent;
 	registerComponent.init();
+}
+
+void AuthComponent::doExit() {
+	exit(1);
+	return;
 }
 
 void AuthComponent::init() {

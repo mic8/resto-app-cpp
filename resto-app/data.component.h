@@ -24,9 +24,15 @@ protected:
 
 	bool isExit;
 
+	bool isPressS;
+
+	bool isPressD;
+
 	vector<string> list;
 
 	void addList(string label);
+
+	void resetList();
 
 	void setTitle(string title);
 

@@ -58,12 +58,6 @@
     <Filter Include="Source Files\components\admins">
       <UniqueIdentifier>{3aeef276-4e54-4aed-a7c9-805dfa5072ee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\components\customers">
-      <UniqueIdentifier>{4de5c181-b4e7-42c1-bd90-1463d42383c7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\components\waiters">
-      <UniqueIdentifier>{d4acb7c5-ad1e-48c6-b734-3f49cff7fa75}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\components\admins\user">
       <UniqueIdentifier>{755501da-5ed9-47c2-a025-08b97d045ded}</UniqueIdentifier>
     </Filter>
@@ -87,6 +81,57 @@
     </Filter>
     <Filter Include="Source Files\components\admins\user\edit">
       <UniqueIdentifier>{346cc455-50e8-4736-a6b4-65a9243c8280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\menu">
+      <UniqueIdentifier>{a7a0deef-f740-4fee-bf4f-c435d037ec9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\menu\add">
+      <UniqueIdentifier>{6aab488f-b86c-4416-8702-e5f6d4573fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\menu\detail">
+      <UniqueIdentifier>{029bc32e-c5ed-4f48-b5e8-0e88c3a9029d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\menu\edit">
+      <UniqueIdentifier>{b5da598d-83fe-4240-8e86-591ed0c85235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\menu\view">
+      <UniqueIdentifier>{417cd47b-ed21-4984-80d4-e7f88f3b714e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\providers\menu">
+      <UniqueIdentifier>{fc9830ed-38dd-492a-a76d-cf3dbd50fc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\menu">
+      <UniqueIdentifier>{5b2378e3-3a79-42d1-aff6-1a1b30d1cce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\providers\transaction-detail">
+      <UniqueIdentifier>{56f63038-2ee8-40e6-ab87-a00a7a9e2c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\transaction-detail">
+      <UniqueIdentifier>{c18b0fb0-ff7d-4bc9-9f4f-ca662a147800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\transaction">
+      <UniqueIdentifier>{b1a54e88-1ee7-400d-9a9e-77effdddc101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\transaction\detail">
+      <UniqueIdentifier>{d158c3ec-47a2-4205-a950-6a3e839ac9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\transaction">
+      <UniqueIdentifier>{cdfcec9f-ca68-4e09-88e6-636de96b841d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\providers\transaction">
+      <UniqueIdentifier>{062bdbfa-6320-4534-a7de-1c580d780746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\waiter">
+      <UniqueIdentifier>{96583e2d-246f-4684-89f0-27bfed143e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\waiter\vendor">
+      <UniqueIdentifier>{77aacda2-b006-4f0b-9f6e-80a18c277a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\admins\transaction\view">
+      <UniqueIdentifier>{d6de2657-e2c9-428e-a6f9-ebd8664def21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\waiter\menu">
+      <UniqueIdentifier>{7fc42cd7-a55e-43d9-87f6-dfa6d784c1fe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +198,54 @@
     <ClCompile Include="user-edit.admin.component.cpp">
       <Filter>Source Files\components\admins\user\edit</Filter>
     </ClCompile>
+    <ClCompile Include="menu.admin.component.cpp">
+      <Filter>Source Files\components\admins\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.provider.cpp">
+      <Filter>Source Files\providers\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.model.cpp">
+      <Filter>Source Files\models\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu-add.admin.component.cpp">
+      <Filter>Source Files\components\admins\menu\add</Filter>
+    </ClCompile>
+    <ClCompile Include="menu-view.admin.component.cpp">
+      <Filter>Source Files\components\admins\menu\view</Filter>
+    </ClCompile>
+    <ClCompile Include="menu-edit.admin.component.cpp">
+      <Filter>Source Files\components\admins\menu\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="menu-detail.admin.component.cpp">
+      <Filter>Source Files\components\admins\menu\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction-detail.provider.cpp">
+      <Filter>Source Files\providers\transaction-detail</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction-detail.model.cpp">
+      <Filter>Source Files\models\transaction-detail</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction.admin.component.cpp">
+      <Filter>Source Files\components\admins\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction-detail.admin.component.cpp">
+      <Filter>Source Files\components\admins\transaction\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction.model.cpp">
+      <Filter>Source Files\models\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction.provider.cpp">
+      <Filter>Source Files\providers\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor.waiter.component.cpp">
+      <Filter>Source Files\components\waiter\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="transaction-view.admin.component.cpp">
+      <Filter>Source Files\components\admins\transaction\view</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.waiter.component.cpp">
+      <Filter>Source Files\components\waiter\menu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="user.provider.h">
@@ -216,6 +309,54 @@
     </ClInclude>
     <ClInclude Include="user-edit.admin.component.h">
       <Filter>Source Files\components\admins\user\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.admin.component.h">
+      <Filter>Source Files\components\admins\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.provider.h">
+      <Filter>Source Files\providers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.model.h">
+      <Filter>Source Files\models\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu-add.admin.component.h">
+      <Filter>Source Files\components\admins\menu\add</Filter>
+    </ClInclude>
+    <ClInclude Include="menu-view.admin.component.h">
+      <Filter>Source Files\components\admins\menu\view</Filter>
+    </ClInclude>
+    <ClInclude Include="menu-detail.admin.component.h">
+      <Filter>Source Files\components\admins\menu\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="menu-edit.admin.component.h">
+      <Filter>Source Files\components\admins\menu\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction-detail.provider.h">
+      <Filter>Source Files\providers\transaction-detail</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction-detail.model.h">
+      <Filter>Source Files\models\transaction-detail</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction.admin.component.h">
+      <Filter>Source Files\components\admins\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction-detail.admin.component.h">
+      <Filter>Source Files\components\admins\transaction\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction.model.h">
+      <Filter>Source Files\models\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction.provider.h">
+      <Filter>Source Files\providers\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor.waiter.component.h">
+      <Filter>Source Files\components\waiter\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="transaction-view.admin.component.h">
+      <Filter>Source Files\components\admins\transaction\view</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.waiter.component.h">
+      <Filter>Source Files\components\waiter\menu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -19,7 +19,7 @@ public:
 
 	static const int WAITER = 2;
 
-	static const int CUSTOMER = 3;
+	//static const int CUSTOMER = 3;
 	
 	vector<int> roles;
 

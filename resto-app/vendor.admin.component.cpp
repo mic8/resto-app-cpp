@@ -6,6 +6,8 @@ void VendorAdminComponent::bindLoggedUser() {
 
 void VendorAdminComponent::bindList() {
 	this->list.push_back("Manage User");
+	this->list.push_back("Manage Food / Beverages");
+	this->list.push_back("Manage Transactions");
 	this->list.push_back("Logout");
 }
 
@@ -16,6 +18,16 @@ void VendorAdminComponent::bindTitle(string title) {
 void VendorAdminComponent::doManageUser() {
 	UserAdminComponent userAdminComponent;
 	userAdminComponent.init();
+}
+
+void VendorAdminComponent::doManageMenu() {
+	MenuAdminComponent menuAdminComponent;
+	menuAdminComponent.init();
+}
+
+void VendorAdminComponent::doManageTransaction() {
+	TransactionAdminComponent transactionAdminComponent;
+	transactionAdminComponent.init();
 }
 
 void VendorAdminComponent::doLogout() {
@@ -31,6 +43,11 @@ void VendorAdminComponent::action(int currIndex) {
 		this->doManageUser();
 		break;
 	case 1:
+		this->doManageMenu();
+		break;
+	case 2:
+		this->doManageTransaction();
+	case 3:
 		this->doLogout();
 		break;
 	}

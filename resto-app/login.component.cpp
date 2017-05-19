@@ -20,6 +20,11 @@ void LoginComponent::doLoggedAsAdmin() {
 	vendorAdminComponent.init();
 }
 
+void LoginComponent::doLoggedAsWaiter() {
+	VendorWaiterComponent vendorWaiterComponent;
+	vendorWaiterComponent.init();
+}
+
 void LoginComponent::success(string message) {
 	UserModel user = this->userProvider.findById(UserLoggedModel::USER);
 	switch (user.getRole()) {
@@ -27,8 +32,7 @@ void LoginComponent::success(string message) {
 		this->doLoggedAsAdmin();
 		break;
 	case RoleModel::WAITER:
-		break;
-	case RoleModel::CUSTOMER:
+		this->doLoggedAsWaiter();
 		break;
 	}
 

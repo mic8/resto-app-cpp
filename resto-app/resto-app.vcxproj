@@ -123,12 +123,27 @@
     <ClCompile Include="data.component.cpp" />
     <ClCompile Include="login.component.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu-add.admin.component.cpp" />
+    <ClCompile Include="menu-detail.admin.component.cpp" />
+    <ClCompile Include="menu-edit.admin.component.cpp" />
+    <ClCompile Include="menu-view.admin.component.cpp" />
+    <ClCompile Include="menu.admin.component.cpp" />
     <ClCompile Include="menu.component.cpp" />
+    <ClCompile Include="menu.model.cpp" />
+    <ClCompile Include="menu.provider.cpp" />
+    <ClCompile Include="menu.waiter.component.cpp" />
     <ClCompile Include="provider.cpp" />
     <ClCompile Include="register.component.cpp" />
     <ClCompile Include="role.model.cpp" />
     <ClCompile Include="select.component.cpp" />
     <ClCompile Include="stream.helper.cpp" />
+    <ClCompile Include="transaction-detail.admin.component.cpp" />
+    <ClCompile Include="transaction-detail.model.cpp" />
+    <ClCompile Include="transaction-detail.provider.cpp" />
+    <ClCompile Include="transaction-view.admin.component.cpp" />
+    <ClCompile Include="transaction.admin.component.cpp" />
+    <ClCompile Include="transaction.model.cpp" />
+    <ClCompile Include="transaction.provider.cpp" />
     <ClCompile Include="user-add.admin.component.cpp" />
     <ClCompile Include="user-detail.admin.component.cpp" />
     <ClCompile Include="user-edit.admin.component.cpp" />
@@ -139,6 +154,7 @@
     <ClCompile Include="user.provider.cpp" />
     <ClCompile Include="validator.helper.cpp" />
     <ClCompile Include="vendor.admin.component.cpp" />
+    <ClCompile Include="vendor.waiter.component.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="user.provider.h" />
@@ -148,12 +164,27 @@
     <ClInclude Include="component.h" />
     <ClInclude Include="data.component.h" />
     <ClInclude Include="login.component.h" />
+    <ClInclude Include="menu-add.admin.component.h" />
+    <ClInclude Include="menu-detail.admin.component.h" />
+    <ClInclude Include="menu-edit.admin.component.h" />
+    <ClInclude Include="menu-view.admin.component.h" />
+    <ClInclude Include="menu.admin.component.h" />
+    <ClInclude Include="menu.model.h" />
+    <ClInclude Include="menu.provider.h" />
+    <ClInclude Include="menu.waiter.component.h" />
     <ClInclude Include="register.component.h" />
     <ClInclude Include="role.model.h" />
     <ClInclude Include="menu.component.h" />
     <ClInclude Include="provider.h" />
     <ClInclude Include="select.component.h" />
     <ClInclude Include="stream.helper.h" />
+    <ClInclude Include="transaction-detail.admin.component.h" />
+    <ClInclude Include="transaction-detail.model.h" />
+    <ClInclude Include="transaction-detail.provider.h" />
+    <ClInclude Include="transaction-view.admin.component.h" />
+    <ClInclude Include="transaction.admin.component.h" />
+    <ClInclude Include="transaction.model.h" />
+    <ClInclude Include="transaction.provider.h" />
     <ClInclude Include="user-add.admin.component.h" />
     <ClInclude Include="user-detail.admin.component.h" />
     <ClInclude Include="user-edit.admin.component.h" />
@@ -163,6 +194,7 @@
     <ClInclude Include="user.model.h" />
     <ClInclude Include="validator.helper.h" />
     <ClInclude Include="vendor.admin.component.h" />
+    <ClInclude Include="vendor.waiter.component.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -35,15 +35,56 @@ string StreamHelper::stringValidator(string any, string label, vector<string> ar
 	return any;
 }
 
-int StreamHelper::intValidator(string any, string label, vector<string> args) {
-	any = StreamHelper::stringValidator(any, label, args);
-
-	try {
-		return stoi(any);
-	}
-	catch (exception e) {
-		StreamHelper::cls();
-		any = "";
-		StreamHelper::intValidator(any, label, args);
-	}
-}
+//int StreamHelper::intValidator(int any, string label, vector<string> args) {
+//	ValidatorHelper validator;
+//	validator.matchRule(args);
+//
+//	if (validator.check[ValidatorHelper::REQUIRED]) {
+//		do {
+//			StreamHelper::cls();
+//			cout << label;
+//			cin >> any; cin.sync(); cin.clear();
+//			if (any) validator.showErrorMessage("Input is Required");
+//			if (any < validator.check[ValidatorHelper::MIN] && any != 0) validator.showErrorMessage("Input must has minimal " + to_string(validator.check[ValidatorHelper::MIN]) + " input(s)");
+//			if (any > validator.check[ValidatorHelper::MAX]) validator.showErrorMessage("Input must has maximal " + to_string(validator.check[ValidatorHelper::MAX]) + " input(s)");
+//		} while (any <= 0 || any < validator.check[ValidatorHelper::MIN] || any > validator.check[ValidatorHelper::MAX]);
+//	}
+//	else {
+//		do {
+//			StreamHelper::cls();
+//			cout << label;
+//			cin >> any; cin.sync(); cin.clear();
+//			if (any < validator.check[ValidatorHelper::MIN] && any != 0) validator.showErrorMessage("Input must has minimal " + to_string(validator.check[ValidatorHelper::MIN]) + " input(s)");
+//			if (any > validator.check[ValidatorHelper::MAX]) validator.showErrorMessage("Input must has maximal " + to_string(validator.check[ValidatorHelper::MAX]) + " input(s)");
+//		} while (any < validator.check[ValidatorHelper::MIN] || any > validator.check[ValidatorHelper::MAX]);
+//	}
+//
+//	return any;
+//}
+//
+//double StreamHelper::doubleValidator(double any, string label, vector<string> args) {
+//	ValidatorHelper validator;
+//	validator.matchRule(args);
+//
+//	if (validator.check[ValidatorHelper::REQUIRED]) {
+//		do {
+//			StreamHelper::cls();
+//			cout << label;
+//			cin >> any; cin.sync(); cin.clear();
+//			if (any) validator.showErrorMessage("Input is Required");
+//			if (any < validator.check[ValidatorHelper::MIN] && any != 0) validator.showErrorMessage("Input must has minimal " + to_string(validator.check[ValidatorHelper::MIN]) + " input(s)");
+//			if (any > validator.check[ValidatorHelper::MAX]) validator.showErrorMessage("Input must has maximal " + to_string(validator.check[ValidatorHelper::MAX]) + " input(s)");
+//		} while (any <= 0 || any < validator.check[ValidatorHelper::MIN] || any > validator.check[ValidatorHelper::MAX]);
+//	}
+//	else {
+//		do {
+//			StreamHelper::cls();
+//			cout << label;
+//			cin >> any; cin.sync(); cin.clear();
+//			if (any < validator.check[ValidatorHelper::MIN] && any != 0) validator.showErrorMessage("Input must has minimal " + to_string(validator.check[ValidatorHelper::MIN]) + " input(s)");
+//			if (any > validator.check[ValidatorHelper::MAX]) validator.showErrorMessage("Input must has maximal " + to_string(validator.check[ValidatorHelper::MAX]) + " input(s)");
+//		} while (any < validator.check[ValidatorHelper::MIN] || any > validator.check[ValidatorHelper::MAX]);
+//	}
+//
+//	return any;
+//}

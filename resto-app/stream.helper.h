@@ -26,6 +26,8 @@ public:
 
 	static string stringValidator(string any, string label, vector<string> args);
 
-	static int intValidator(string any, string label, vector<string> args);
+	//static int intValidator(int any, string label, vector<string> args);
+
+	//static double doubleValidator(double any, string label, vector<string> args);
 
 };

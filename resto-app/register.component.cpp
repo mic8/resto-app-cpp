@@ -55,7 +55,7 @@ void RegisterComponent::init() {
 	username = StreamHelper::stringValidator(username, "Input Username: ", usernameRules);
 	name = StreamHelper::stringValidator(name, "Input Name: ", nameRules);
 	password = StreamHelper::stringValidator(password, "Input Password: ", passwordRules);
-	role = RoleModel::CUSTOMER;
+	role = RoleModel::WAITER;
 
 	this->doRegister(username, name, password, role);
 
